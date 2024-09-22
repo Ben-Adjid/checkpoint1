@@ -1,0 +1,59 @@
+/* Utiliser la police Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour la barre de navigation */
+.nav-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-bar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style pour les sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le formulaire */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+/* Style pour le footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
